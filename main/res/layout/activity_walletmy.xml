@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".walletmy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:background="@drawable/w1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/Linear1">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/Card1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="My Wallet"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/Wallet"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/back"
+                android:id="@+id/BackButton"/>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="395dp"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="451dp"
+        android:id="@+id/Card2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add Money"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/MoneyText"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/rupee1"
+            android:id="@+id/MoneyImage"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="395dp"
+        android:layout_height="67dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="523dp"
+        android:id="@+id/Card3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Paasbook"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/PassbookText"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pass"
+            android:id="@+id/Passbookimage"/>
+
+    </android.support.v7.widget.CardView>
+    <ImageView
+        android:layout_width="91dp"
+        android:layout_height="99dp"
+        android:src="@drawable/rupee3"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:id="@+id/RupeeSign"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Rupee"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:textSize="30dp"
+        android:id="@+id/Rupee"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Paise"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="235dp"
+        android:id="@+id/Paise"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="395dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        android:id="@+id/Card4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Bank Account"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/AccountText"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/bank"
+            android:id="@+id/AccountImage"/>
+    </android.support.v7.widget.CardView>
+
+
+
+
